@@ -15,6 +15,12 @@ The deployed API can be accessed [here](https://fyle-github.onrender.com/).
  - Install the required libraries using the following command:
 
 > pip install requirements.txt
+
+- Create a GITHUB access token to access the GitHub API.
+- Create a .env file in the directory and paste the following in it and save it:
+
+    GITHUB_API_KEY  =  "<YOUR_GITHUB_ACCESS_TOKEN>"
+
  - Run the following command in the terminal:
 > 
 > python app.py
@@ -37,3 +43,4 @@ If the username does not exist it will return status code 404.
 Run the following command in the terminal:
 
 > python -m pytest -v
+
