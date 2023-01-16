@@ -6,6 +6,12 @@ The deployed API can be accessed [here](https://fyle-github.onrender.com/).
 ## How to run
 
  - Clone this repository. Open the repository in a terminal.
+ - Create a virtual environment using the following command:
+
+> virtualenv venv
+- Activate the virtual environment using the following command:
+> venv\scripts\activate
+
  - Install the required libraries using the following command:
 
 > pip install requirements.txt
